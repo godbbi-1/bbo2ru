@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>임시</title>
+    <style>
+   /* 배열 초기화 */
+      * {padding: 0; margin: 0; list-style: none;}
+      body {padding: 30px; background-color: wight;}
+
+      .menu ul {display: flex;}
+      .menu ul li {flex: 1; border: 1px solid #ddd; border-left: none;}
+      .menu ul li :first-child {border-left: 1px solid #ddd;}
+      .menu ul li a{display: block; height: 59px;}
+      .mainimg {
+        width: auto;
+        list-style: position: inside;
+      }
+      .main ul {display: flex;}
+      .main ul li {flex: 1; border: 1px solid #ddd; border-left: none;}
+      .main ul li :first-child {border-left: 1px solid #ddd;}
+      .main ul li a{display: block; height: 200px; width: 200px;}
+
+      body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+
+      }
+      .bgimg {
+        border: 0;
+        padding : 0;
+        background-image: url(D:\tt\img\background.jpg)
+        min-height 100%;
+        background-position: center;
+        background-size: cover;
+      }
+/* 메인 부분 프레임설정  */
+  #div_root {
+      margin: auto;
+      width: 100%;
+      height: 15%;
+      text-align: center;
+    }
+  #div_top {
+    width: 100%;
+    height: 20%;
+    text-align: center;
+  }
+  #div_middle {
+    width: 100%;
+    height: 350px;
+  }
+
+  #bg {
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+
+  }
+
+  #bg img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
+
+  }
+
+
+    </style>
+  </head>
+  <body>
+
+
+  <div id = "div_root">
+    <nav class = "menu">
+      <!-- 상단 메뉴 -->
+  <div id = "div_top">
+      <ul>
+        <li><a href="#"> CI</a></li>
+        <li><a href="#"> 공지사항</a></li>w
+        <li><a href="./drawin.html"> 입출금</a></li>
+        <li><a href="#"> 메뉴4</a></li>
+        <li><a href="#"> 메뉴5</a></li>
+        <li> <form name = "fo" metod = "get">
+        <label> ID : <input type="text" size="5" value=""></label>
+
+    <label for = "pass">PW :    </label>
+  <input  id = "pass" type="password" size="15" value="">
+  <input type="submit" value="login"></li>
+
+      </ul>
+</div>
+</nav>
+
+<div id = "div_middle">
+      <ul>
+        <!-- 메인 이미지 -->
+
+
+        <li><a href="#"><img src = "../img/main.jpg" width="100%" height = "250" ></a></li>
+
+      </ul>
+</div>
+
+    <nav class="main">
+        <ul>
+
+          <li><a href="./midas.html"><img src = "../img/midas.jpg" style="max-width: 100%; height: auto;"> </a></li>
+          <li><a href="#"><img src = "../img/oriental.png" style="max-width: 100%; height: auto;"></a></li>
+          <li><a href="#"><img src = "../img/microgaming.png" style="max-width: 100%; height: auto;"></a></li>
+        </ul>
+        <ul>
+
+          <li><a href="#"> <img src = "../img/cagayan.jpg" style="max-width: 100%; height: auto;"></a></li>
+          <li><a href="#"> <img src = "../img/88.jpg" style="max-width: 100%; height: auto;"></a></li>
+          <li><a href="#"> <img src = "../img/powerball.png" style="max-width: 100%; height: auto;"></a></li>
+        </ul>
+</nav>
+
+
+
+  </body>
+</html>
